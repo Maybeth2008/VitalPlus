@@ -3,30 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VitalPlus</title>
-    <link rel="stylesheet" href="estilos.css">  
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <header>    
+    <header>
         <nav>
             <a href="index.html">Inicio</a>
             <a href="login.html">Iniciar Sesión</a>
-            <img class="fotico" src="" alt="foto">
+            <img class="userImage" src="" alt="foto">
         </nav>
     </header>   
 
-    <section>
-        
-        <aside>
-            <img class="img1" src="https://img.freepik.com/premium-photo/doctor-typing-laptop-computer-while-sitting-desk-hospital-office_735658-1111.jpg" alt="Clínica">
-        </aside>
+    <div class="formulario">
+        <h2>Iniciar Sesión</h2>
+        <form method="post" > <!--Post para enviar informacion a la base de datos-->
+            <div class="username">
+                <label for="">Correo</label>
+                <br>
+                <input type="email" required> <!--required significa campo obligatorio-->
+            </div>
+            <div>
+                <label for="">Contraseña</label>
+                <br>
+                <input type="password" required>
+            </div>
+            <input class="iniciar" type="submit" value="Iniciar">
+            <div class="recordar">¿No tienes cuenta? <a class="registro" href="registrar.html"> Registrate aquí </a></div>
+        </form>
+    </div>
 
-        <h3 class="introduccion-titulo">Registro de Historias Clínicas</h3>
-        <p class="introduccion">Crea historias clínicas personalizadas de manera rápida y segura, adaptadas a las necesidades de tu centro médico. Accede al historial de tus pacientes desde cualquier dispositivo y en cualquier momento. Además, permite a tus pacientes acceder a sus datos para ver sus citas y consultas de forma fácil y segura.</p>
-        <a class="comenzar" href="">Comenzar</a>
-
-    </section>
-    <br><br><br><br><br><br><br><br><br><br>
     <footer>
         <div class="logo">
             <img class="img2" src="c:\Users\Maybe\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\5C645CC19A53AC1DFB155840D886050C\Imagen de WhatsApp 2024-07-20 a las 14.22.34_bb73ff57.jpg" alt="logo">
