@@ -68,8 +68,6 @@ footer{
     font-size: medium;
 }
 
-
-
 .formulario h2{
     text-align: center;
     padding: 0 0 20px 0;
@@ -106,7 +104,14 @@ footer{
     
 }
 
-
-
-
-
+.registro{
+    color:blue;
+    font-size: medium;
+    padding-left: 0%;
+}
+.formulario{
+    padding-left: 43%;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    background-color: white;
+}
