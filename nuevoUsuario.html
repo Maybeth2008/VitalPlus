@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo Usuario</title>
+    <link rel="stylesheet" href="estilos.css">   <!-- Agregar hoja de estilos -->
+</head>
+<body>
+    <div class="formulario">
+        <h2>Nuevo Registro</h2>
+        <form action="">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+            </div>
+            <div>
+                <label for="tipoId">Tipo de indentificacion:</label>
+                <select name="tipoDeId" id="TipoId">
+                    <option value="CC">Cedula de Ciudadania</option>
+                    <option value="TI">Tarjeta de identidad</option>
+                    <option value="RC">Registro civil</option>
+                    <option value="CE">Cedula de extrangeria</option>
+                    <option value="PA">Pasaporte</option>
+                    <option value="MS">Menor sin identificacion</option>
+                    <option value="OT">Otro</option>
+                  </select>
+            </div>
+            <div>
+                <label for="NumeroId">Numero de identificación</label>
+                <input type="text" id="numeroId" name="numeroId" required>
+            </div>
+            <div>
+                <label for="sexo">Sexo:</label>
+                <select name="sexo" id="sexo">
+                    <option value="M">Masculino</option>
+                    <option value="F">Femenino</option>
+                    <option value="O">Otro</option>
+                  </select>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+            </div>
+            <div>
+                <label for="fechaNacimiento">Fecha de nacimiento:</label>
+                <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

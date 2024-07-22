@@ -1,3 +1,6 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
 header{
     background-color: #6096BA; /*Color de fondo*/
     padding-top: 2%; /*Espacio arriba entre el borde interno del header y el nav*/
@@ -9,7 +12,7 @@ a{
     padding-right: 3%; /*Espacio interno de la derecha dentro de cada enlace*/
     color: #E7ECEF; /*Color del texto*/
     font-size: 130%; /*Tamaño del texto*/
-    font-family: 'Times New Roman', Times, serif; /*Tipografía*/
+   
 }
 .fotico{
     float: right; /*Poner solo este elemento a la derecha*/
@@ -22,15 +25,13 @@ a:hover /*Cuando el mouse este encima de estos enlaces hacer:*/{
 .introduccion-titulo{
     color: #274C77;
     padding: 8% 50% 0% 3%;
-    font-size: 180%; /*Tamaño del texto*/
-    font-family: 'Times New Roman', Times, serif; /*Tipografía*/    
+    font-size: 180%; /*Tamaño del texto*/   
 }
 .introduccion{
     margin-top: 0; /*Para que no quede espacio en la margen de arriba del texto*/
     margin-bottom: 2%; /*Para que quede un pequeño espacio en la margen de abajo */
     padding: 0% 50% 2% 3%; 
     font-size: 130%; /*Tamaño del texto*/
-    font-family: 'Times New Roman', Times, serif; /*Tipografía*/
 }
 .comenzar{
     background-color: #274C77;
@@ -66,3 +67,46 @@ footer{
     color: black;
     font-size: medium;
 }
+
+
+
+.formulario h2{
+    text-align: center;
+    padding: 0 0 20px 0;
+    color: #274C77;
+    border-bottom: 1px solid white;
+}
+
+.formulario form{
+    padding: 0px 40px 40px 40px;
+    box-sizing: border-box;
+}
+
+.formulario form div{
+    position: relative;
+    border-bottom: 2px solid white;
+    margin: 10px 0px;
+}
+
+.formulario form input{
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    
+}
+
+.formulario form select{
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    
+}
+
+
+
+
+
